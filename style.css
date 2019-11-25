@@ -1,0 +1,87 @@
+body{
+    background-color: #a6a6a6;
+}
+p{
+    padding: 20px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    text-indent: 30px;
+}
+.nav a{
+    color: black;
+    padding: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Droid Serif', serif;
+    
+}
+.nav a:hover{
+    background-color:#808080;
+    transition: .5s;
+}
+.nav a.active{
+    border-top: 3px solid gold;
+}
+.nav{
+    background-color: dimgray;
+    width: 100%;
+    border: 2px black solid;
+}
+.title{
+    font-size: 60px;
+    font-family: 'Droid Serif', serif;
+    color: black;
+    margin: 5px;
+}
+
+.description{
+    font-family: 'Droid Serif', serif;
+    font-size: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+}
+.navy{
+    color: #000066
+}
+.gold{
+    color: #998200;
+}
+.images{
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.italic{
+    font-style: italic;
+    font-weight: bold;
+}
+.click{
+    color: blue;
+    text-decoration: underline;
+}
+dt:before {
+    content: 'Q. ';
+}
+dd:before {
+    content: 'A. ';
+}
+dt {
+    font-weight: bold;
+    font-size: 20px;
+}
+dd {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
